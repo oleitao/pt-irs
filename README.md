@@ -6,7 +6,7 @@ IRS (Income tax) simulator. Compare how much income tax you would pay in differe
 - 2024 (current) - the tax brackets that are applied now
 - 2024 (new) - the new tax brackets
 
-live at: 
+live at: https://portuguese-irs.netlify.app/
 
 > Note: the simulator is in Portuguese
 
