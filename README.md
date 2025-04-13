@@ -1,20 +1,43 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# Income tax simulator [PT]
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+IRS (Income tax) simulator. Compare how much income tax you would pay in different scenarios:
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+- 2023
+- 2024 (current) - the tax brackets that are applied now
+- 2024 (new) - the new tax brackets
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+live at: 
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+> Note: the simulator is in Portuguese
+
+![preview](img/preview.gif)
+
+## Contributing
+
+Contributions are welcome. Although I enjoy helping people with their financial burdens, I do have limited time to work on this. Feel free to open an issue or submit a pull request. If you're not sure where to start, mention me in the comments!
+
+It uses [shadcn-vue](https://www.shadcn-vue.com/) components - so check the docs before you add a component.
+
+## Local setup (with node)
+
+### Instal dependencies
+
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+
+```
+npm run dev
+```
+
+### Compiles and minifies for production
+
+```
+npm run build
+```
+
+### Tests
+
+There are no tests right now. Feel free to change that by opening a PR.
